@@ -12,6 +12,6 @@ $(document).ready(function() {
     }
 
     var amenityList = Object.values(amenities).join(', ');
-    $('#amenities').text(amenityList);
+    $('.amenities h4').text(amenityList);
   });
 })
